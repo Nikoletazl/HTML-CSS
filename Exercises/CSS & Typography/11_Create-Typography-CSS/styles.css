@@ -1,0 +1,27 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+
+}
+blockquote {
+    padding: .5rem 1rem;
+    border-left: .25rem solid rgb(221,221,221);
+    font-style: italic;
+}
+
+
+th {
+    background-color: rgb(194, 194, 194);
+    text-align: left;
+    border: 1px solid black;
+    width: 20%;
+}
+td{
+    background-color: rgb(234, 234, 234);
+    text-align: left;
+    border: 1px solid black;
+}

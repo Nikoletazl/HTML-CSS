@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(227, 227, 227);
+}
+
+button {
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.button, .button a, .normal-buttons-ctr .hover{
+    color: rgb(51, 51, 51);
+    background-color: rgb(227, 227, 227);
+}
+
+.fill, .hover, .fill a {
+    color: rgb(251, 251, 251);
+    background-color: rgb(51, 51, 51);
+}
+
+.hover:hover {
+    background-color: rgb(0, 102, 0);
+    cursor: pointer;
+}
