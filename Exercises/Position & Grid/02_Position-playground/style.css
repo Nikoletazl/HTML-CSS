@@ -1,0 +1,40 @@
+@import url('http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css');
+
+div {
+    height: 50vh;
+}
+
+div:nth-child(1){
+    background-image: linear-gradient(to right, #0d469a, #0071c0, #0098ca, #00bdbc, #00dda0);
+}
+
+div:first-child img {
+    width: 300px;
+}
+
+div:nth-child(2){
+    background-image: linear-gradient(to right, #c10000, #cd3e00, #d86000, #e07e00, #e79b01);
+}
+
+div:last-child img {
+    width: 200px;
+}
+
+div {
+    display: block;
+    position: relative;
+}
+
+div .card {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+div .card i {
+    color: white;
+    position: absolute;
+    right: 6px;
+    bottom: 12px;
+}
