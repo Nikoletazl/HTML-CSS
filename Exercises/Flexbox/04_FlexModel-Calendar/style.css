@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    max-width: 65vw;
+    
+}
+
+.container .week span {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.container .week {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .notes {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.container .notes span {
+    height: 100%;
+}
+
+.container .week span {
+    width: 20%;
+}
+
+.container .week .work,
+.container .week .end {
+    width: 100%;
+}
+
+.container .week span:nth-child(8), .container .week span:nth-child(9) {
+    width: 50%;
+}
+
+.container span {
+    border: 1px solid black;
+    padding: 0.5rem;
+}

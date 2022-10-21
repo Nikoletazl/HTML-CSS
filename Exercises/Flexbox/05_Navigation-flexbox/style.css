@@ -1,0 +1,27 @@
+header {
+    border-bottom: 2px solid rgb(0, 0, 0);
+   
+}
+
+header h1 {
+    margin-right: auto;
+   
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+
+header nav ul li {
+    display: inline-block;
+    padding: 10px;
+    list-style: none;
+    gap: 10px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
