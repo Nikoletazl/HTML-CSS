@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    background-color: rgb(238, 238, 238);
+}
+
+
+.masonry h2 {
+    width: 100%;
+}
+
+.masonry .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-height: 200vh;
+}
+
+.masonry .card img {
+    max-width: 100%;
+}
+
+.masonry .card {
+    max-width: 200px;
+    flex: 0 1 30%;
+    background-color: white;
+    box-shadow: 2px 2px 10px gray;
+    border-radius: 5px;
+    
+}
+
+.masonry section {
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.masonry footer {
+    padding: 20px;
+    margin: -10px;
+    text-align: center;
+}
+
