@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300;400&display=swap");
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.header .content, .header .pic {
+    width: 50%;
+}
+
+.header .content .title {
+    font-size: 24px;
+}
+
+.header .content .desc {
+    
+    font-size: 14px;
+}
+
+.header .content .features .features__items{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.header .content .features .features__items .items__img .content__img{
+
+    width: 70px;
+}
+
+.header .content .features .features__items .items__content .content__desc,
+.header .content .features .features__items .items__content .content__title
+
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header .content .features .features__items .items__content .content__title{
+    font-size: 18px;
+}
+
+.header .content .features .features__items .items__content .content__desc{
+    font-size: 16px;
+}
+
+
