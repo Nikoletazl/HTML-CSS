@@ -1,0 +1,182 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(227, 227, 227);
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation .logo{
+    display: flex;
+    align-items: center;
+}
+
+.navigation .logo .title {
+    margin: 15px;
+    font-size: 26px;
+    margin-right: 0px;
+}
+
+.navigation .logo .sub-title {
+    font-size: 10px;
+    margin-top: 20px;
+    color: grey;
+}
+
+.navigation .logo .divider {
+    margin: 15px;
+    width: 1px;
+    background-color: rgb(197, 197, 197);
+    height: 2rem;
+}
+
+.navigation .links .nav{
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    margin-right: 15px;
+}
+
+.navigation .links .nav li{
+    display: flex;
+    justify-content: center;
+    max-height: 18px;
+    width: 100px;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(212, 212, 212);
+    list-style-type: none;
+}
+
+.navigation .links .nav .active {
+    background-color: rgb(228, 95, 0);
+}
+
+.navigation .links .nav .active a {
+    color: aliceblue;
+}
+
+.navigation .links .nav li a{
+    color: rgb(59, 59, 59);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.main {
+    height: calc(100vh - 66px);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column
+}
+
+.main .img-container {
+    overflow: hidden;
+
+}
+
+.main .img-container .pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+
+.main .content {
+    text-align: center;
+    padding: 25px;
+    background-color:  rgb(228, 95, 0);
+    color: aliceblue;
+    font-size: 12px;
+}
+
+.main .features {
+    display: flex;
+    background-color: rgb(78, 78, 78);
+}
+
+.main .features .feature-items{
+    text-align: center;
+    padding: 40px 20px;
+    
+}
+
+.main .features .feature-items h4 {
+    margin-top: 5px;
+    color: aliceblue;
+}
+
+.main .features .feature-items .divider {
+    height: 1px;
+    background-color: rgb(197, 197, 197);
+}
+
+.main .features .feature-items p {
+    color: rgb(212, 212, 212) 
+}
+
+.main .features .feature-items .icon {
+    font-size: 28px;
+    background-color: rgb(228, 95, 0);
+    padding: 15px;
+    color: aliceblue;
+    margin-bottom: 0px;
+}
+
+.main .ad {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.main .ad .ad-content {
+    text-align: center;
+    padding: 20px;
+}
+
+.main .ad .ad-content .title {
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+.main .ad .ad-content .desc {
+    margin-top: 0px;
+    font-size: 14px;
+}
+
+.main .ad .ad-content .btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(82, 174, 130);
+    color: aliceblue;
+}
+
+.main .info {
+    display: flex;
+    background-color: rgb(78, 78, 78);
+    color: aliceblue;
+    padding: 30px;
+}
+
+.main .info .info-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.footer {
+    margin: 0px;
+    padding: 40px;
+    text-align: center;
+    background-color: rgb(82, 174, 130);
+    color: aliceblue;
+}
+
