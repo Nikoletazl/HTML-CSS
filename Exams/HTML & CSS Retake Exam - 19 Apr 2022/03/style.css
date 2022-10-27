@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    background: rgb(121,108,68);
+    background: linear-gradient(90deg, rgba(121,108,68,1) 0%, rgba(193,161,66,1) 35%, rgba(198,162,52,1) 100%);
+}
+
+
+body {
+    position: relative;
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.logo {
+    position: absolute;
+    z-index: 100;
+    background-color: #c6a234;
+    background: linear-gradient(90deg, rgba(121,108,68,1) 0%, rgba(193,161,66,1) 35%, rgba(198,162,52,1) 100%);
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+
+
+.navigation {
+    margin-top: 0px;
+    background-color: white;
+}
+
+.navigation nav ul li {
+    list-style: none;
+}
+
+.navigation nav ul li a{
+    text-decoration: none;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.navigation nav {
+    margin-right: 30px;
+    justify-content: end;
+    display: flex;
+}
+
+.navigation  ul{
+    display: flex;
+    gap: 20px;
+
+}
+
+.pictures {
+    /* margin: 0px;
+    display: flex;
+    background-image: url("image/slider.jpg");
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center; */
+    margin: 0;
+    background: url("image/slider.jpg");
+    background-position: center;
+    object-fit: contain;
+    height: 75vh;
+    display: flex;
+    
+}
+
+.card .card-content {
+    background: rgba(0, 0, 0, 0.5);
+    width: 40%;
+    height: 60%;
+    color: white;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px;
+   
+}
+
+.best-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+   
+}
+
+.best-card .best-card-content {
+    width: 450px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.best-card .best-card-content ul li {
+    list-style: none;
+}
+
+.best-card .best-card-content button {
+    padding: 6px 12px;
+    border: 1px solid white;
+    background: rgba(198,162,52,1);
+    margin-bottom: 20px;
+    color: white;
+}
